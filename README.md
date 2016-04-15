@@ -1,17 +1,18 @@
 # Fabric-Defect-Inspection-GLSR
 
 code for Fabric Defect Inspection using Prior Knowledge Guided Least Squares Regression
-FDIGLSR
 
-%%the 'main.m' in the main folder is the main file.
+1. 'main.m' in the main folder is the main file.
 
-%% the 'toolbox' includes some important process, such as patch segmentation , texton feature extracting ,recovery saliency and our main algorithm . 
+2. 'toolbox' includes functions called in our algorithm, such as patch segmentation, texton feature and saliency. 
 
-%%In addition, the methods of RRSVD,wavelet,modified LBP in the folder of 'wnn' are encoded by ourselves according to some paper.
+3. In addition, our implementation of RRSVD, wavelet and modified are in folder: 'wnn'.
 
-%%input data:：data\temp_7_27
+4. Other methods, such as spectral residual and context-aware saliency detection are provided by authors.
 
-%%output results：all_results
+5. input data:：data\temp_7_27
 
-%%p.s. our running enveriment is MATLAB R2014b, then the paramater of 'bitshift.m' is different with old matlab version,please considering the valid paramater.
+6. output results：all_results
+
+7. p.s. our running enveriment is MATLAB R2014b, then the paramater of 'bitshift.m' is different with old matlab version,please considering the valid paramater.
 
