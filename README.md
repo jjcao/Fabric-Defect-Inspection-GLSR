@@ -10,9 +10,9 @@ code for Fabric Defect Inspection using Prior Knowledge Guided Least Squares Reg
 
 4. Other methods, such as spectral residual and context-aware saliency detection are provided by authors.
 
-5. input data:：data\temp_7_27
+5. input data: data\temp_7_27
 
-6. output results：all_results
+6. output results: all_results
 
 7. p.s. our running enveriment is MATLAB R2014b, then the paramater of 'bitshift.m' is different with old matlab version,please considering the valid paramater.
 
